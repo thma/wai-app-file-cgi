@@ -61,7 +61,7 @@ Library
                       , static-hash
                       , text
                       , transformers
-                      , unix
+                      , unix-compat >= 0.5.2.1
                       , wai >= 3.2 && < 3.3
                       , wai-conduit
                       , warp >= 3.3 && < 3.4
@@ -95,7 +95,7 @@ Test-Suite spec
                       , filepath
                       , hspec >= 1.3
                       , http-types
-                      , unix
+                      , unix-compat >= 0.5.2.1
                       , wai >= 3.2 && < 3.3
                       , wai-app-file-cgi
                       , warp >= 3.3 && < 3.4

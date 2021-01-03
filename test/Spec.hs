@@ -12,7 +12,7 @@ import Network.Wai.Handler.Warp
 import System.Directory
 import System.FilePath
 import Test.Hspec
-import System.Posix
+import System.PosixCompat
 
 main :: IO ()
 main = do

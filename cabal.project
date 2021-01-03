@@ -1,0 +1,9 @@
+with-compiler: ghc-8.10.3
+packages: . 
+
+source-repository-package
+   type: git
+   location: https://github.com/thma/unix-compat.git
+
+
+-- extra-packages: unix-compat, wai-app-file-cgi
